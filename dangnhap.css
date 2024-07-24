@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-btn {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+#Search i {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: wavy;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+}
+
+main {
+    background-image: url('/anh/original.webp');
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 500px;
+}
+
+.container-form {
+    background-color: rgba(255, 255, 255, 0.50);
+    width: 500px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input textarea {
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+i {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(97, 147, 247);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(6, 93, 215);
+}
+
+footer {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.footer-item {
+    float: left;
+    margin-left: 30px;
+}
+
+.footer-item label {
+    position: relative;
+    top: 15px;
+}
+
+.col-information {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.information-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 10px;
+}
+
+.information-item h5 {
+    text-align: center;
+}
+
+.information-item p {
+    font-size: 16px;
+    width: 300px;
+    height: 100px;
+}
+
+.information-item a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.information-item a:hover {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}

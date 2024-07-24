@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-btn {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+#Search i {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: wavy;
+    cursor: pointer;
+    position: relative;
+    right: 100px;
+}
+
+.col-md-4 {
+    width: 200px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card img {
+   opacity: 0;
+   animation: flash 4s forwards;
+}
+
+@keyframes flash {
+    to {
+        opacity: 2;
+    }
+}
+
+.card-text {
+    opacity: 0;
+    animation: run 3s forwards;
+}
+
+@keyframes run {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(25px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.accordion-header {
+    background: url('./anh/s-l1200.jpg');
+    font-family: "Open Sans", sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -ms-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    height: 800px;
+}
+
+.container-form {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    height: 700px;
+}
+
+.container-form h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.container-form p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: black;
+}
+
+footer {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.footer-item {
+    float: left;
+    margin-left: 30px;
+}
+
+.footer-item label {
+    position: relative;
+    top: 15px;
+}
+
+.col-information {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.information-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+    margin-left: 10px;
+}
+
+.information-item h5 {
+    text-align: center;
+}
+
+.information-item p {
+    font-size: 16px;
+    width: 300px;
+    height: 100px;
+}
+
+.information-item a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.information-item a:hover {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
